@@ -29,7 +29,7 @@ def get_random_barrel(barrels):
     :return: bool
     """
     if barrels:
-        _ = input("Нажмите клавишу Enter для того, чтобы достать случайный бочонок ")
+        _ = input("Нажмите клавишу Enter для того, чтобы достать бочонок ")
 
         barrel = choice(barrels)
         print(f"Выпал бочонок с номером {barrel}!")
@@ -65,4 +65,7 @@ if __name__ == "__main__":
     while get_random_barrel(barrels):
         get_random_barrel(barrels)
 
-    print(stack)
+    print("Мешок пуст!")
+    print("Бочонки доставались в следующем порядке:")
+    print(*stack)
+    logging.info("Program ended")
