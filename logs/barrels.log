@@ -1,0 +1,14 @@
+2023-11-18 16:13:33,506 INFO Program started
+2023-11-18 16:13:35,060 INFO Input data n = 5.
+2023-11-18 16:13:35,060 INFO Created list with 5 elements from 1 to 5.
+2023-11-18 16:13:35,060 INFO Created empty stack list
+2023-11-18 16:13:35,620 INFO Get random barrel = 2.
+2023-11-18 16:13:35,620 INFO Added 2 to stack. Removed 2 from barrels.
+2023-11-18 16:13:36,019 INFO Get random barrel = 5.
+2023-11-18 16:13:36,019 INFO Added 5 to stack. Removed 5 from barrels.
+2023-11-18 16:13:36,391 INFO Get random barrel = 1.
+2023-11-18 16:13:36,391 INFO Added 1 to stack. Removed 1 from barrels.
+2023-11-18 16:13:36,780 INFO Get random barrel = 4.
+2023-11-18 16:13:36,780 INFO Added 4 to stack. Removed 4 from barrels.
+2023-11-18 16:13:37,199 INFO Get random barrel = 3.
+2023-11-18 16:13:37,199 INFO Added 3 to stack. Removed 3 from barrels.
