@@ -1,4 +1,4 @@
-from random import randint
+from random import choice
 import logging
 
 
@@ -21,10 +21,31 @@ def get_barrels_amount():
         return False
 
 
+def get_random_barrel(barrels):
+    """
+    Достает случайный бочонок из мешка, добавляет в стэк и удаляет из мешка.
+
+    :param barrels: list - мешок с бочонками
+    :return: bool
+    """
+    if barrels:
+        _ = input("Нажмите клавишу Enter для того, чтобы достать случайный бочонок ")
+
+        barrel = choice(barrels)
+        print(f"Выпал бочонок с номером {barrel}!")
+        logging.info(f"Get random barrel = {barrel}.")
+
+        stack.append(barrel)
+        del barrels[barrels.index(barrel)]
+        logging.info(f"Added {barrel} to stack. Removed {barrel} from barrels.")
+        return True
+    return False
+
+
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, filename="logs/barrels.log",
                         filemode="w", format="%(asctime)s %(levelname)s %(message)s")
-
+    logging.info("Program started")
     print("Добро пожаловать в клуб любителей лото!")
 
     # Вводим число n пока не будет валидным
@@ -34,3 +55,14 @@ if __name__ == "__main__":
         n = get_barrels_amount()
     logging.info(f"Input data n = {n}.")
 
+    barrels = list(range(1, n + 1))
+    logging.info(f"Created list with {n} elements from 1 to {n}.")
+
+    stack = []
+    logging.info(f"Created empty stack list")
+
+    # Пока есть бочки в мешке достаем случайные
+    while get_random_barrel(barrels):
+        get_random_barrel(barrels)
+
+    print(stack)
