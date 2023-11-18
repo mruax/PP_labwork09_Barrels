@@ -29,4 +29,4 @@ This python script choose random barrels from bag!
 
 ## Exception coverage
 ![Example image 7](https://github.com/mruax/PP_labwork09_Barrels/blob/master/examples/error_handler.png?raw=true)
-![Example image 9](https://github.com/mruax/PP_labwork09_Barrels/blob/master/examples/logs_with_errors.png?raw=true)
+![Example image 9](https://github.com/mruax/PP_labwork09_Barrels/blob/master/examples/log_with_errors.png?raw=true)
