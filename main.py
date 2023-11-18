@@ -59,7 +59,7 @@ if __name__ == "__main__":
     logging.info(f"Created list with {n} elements from 1 to {n}.")
 
     stack = []
-    logging.info(f"Created empty stack list")
+    logging.info("Created empty stack list")
 
     # Пока есть бочки в мешке достаем случайные
     while get_random_barrel(barrels):
@@ -68,4 +68,5 @@ if __name__ == "__main__":
     print("Мешок пуст!")
     print("Бочонки доставались в следующем порядке:")
     print(*stack)
+    logging.info(f"Stack list = {stack}")
     logging.info("Program ended")

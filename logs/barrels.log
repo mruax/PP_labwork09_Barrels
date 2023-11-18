@@ -1,15 +1,56 @@
-2023-11-18 16:38:50,734 INFO Program started
-2023-11-18 16:38:52,081 INFO Input data n = 5.
-2023-11-18 16:38:52,081 INFO Created list with 5 elements from 1 to 5.
-2023-11-18 16:38:52,081 INFO Created empty stack list
-2023-11-18 16:38:52,486 INFO Get random barrel = 4.
-2023-11-18 16:38:52,486 INFO Added 4 to stack. Removed 4 from barrels.
-2023-11-18 16:38:52,875 INFO Get random barrel = 2.
-2023-11-18 16:38:52,876 INFO Added 2 to stack. Removed 2 from barrels.
-2023-11-18 16:38:53,199 INFO Get random barrel = 5.
-2023-11-18 16:38:53,199 INFO Added 5 to stack. Removed 5 from barrels.
-2023-11-18 16:38:53,466 INFO Get random barrel = 3.
-2023-11-18 16:38:53,466 INFO Added 3 to stack. Removed 3 from barrels.
-2023-11-18 16:38:53,715 INFO Get random barrel = 1.
-2023-11-18 16:38:53,715 INFO Added 1 to stack. Removed 1 from barrels.
-2023-11-18 16:38:53,715 INFO Program ended
+2023-11-18 16:44:50,051 INFO Program started
+2023-11-18 16:44:51,806 INFO Input data n = 25.
+2023-11-18 16:44:51,806 INFO Created list with 25 elements from 1 to 25.
+2023-11-18 16:44:51,806 INFO Created empty stack list
+2023-11-18 16:44:52,088 INFO Get random barrel = 18.
+2023-11-18 16:44:52,088 INFO Added 18 to stack. Removed 18 from barrels.
+2023-11-18 16:44:52,320 INFO Get random barrel = 12.
+2023-11-18 16:44:52,320 INFO Added 12 to stack. Removed 12 from barrels.
+2023-11-18 16:44:52,578 INFO Get random barrel = 2.
+2023-11-18 16:44:52,578 INFO Added 2 to stack. Removed 2 from barrels.
+2023-11-18 16:44:52,789 INFO Get random barrel = 8.
+2023-11-18 16:44:52,789 INFO Added 8 to stack. Removed 8 from barrels.
+2023-11-18 16:44:53,012 INFO Get random barrel = 19.
+2023-11-18 16:44:53,012 INFO Added 19 to stack. Removed 19 from barrels.
+2023-11-18 16:44:53,231 INFO Get random barrel = 22.
+2023-11-18 16:44:53,231 INFO Added 22 to stack. Removed 22 from barrels.
+2023-11-18 16:44:53,442 INFO Get random barrel = 3.
+2023-11-18 16:44:53,442 INFO Added 3 to stack. Removed 3 from barrels.
+2023-11-18 16:44:53,648 INFO Get random barrel = 10.
+2023-11-18 16:44:53,648 INFO Added 10 to stack. Removed 10 from barrels.
+2023-11-18 16:44:53,867 INFO Get random barrel = 15.
+2023-11-18 16:44:53,867 INFO Added 15 to stack. Removed 15 from barrels.
+2023-11-18 16:44:54,078 INFO Get random barrel = 1.
+2023-11-18 16:44:54,078 INFO Added 1 to stack. Removed 1 from barrels.
+2023-11-18 16:44:54,298 INFO Get random barrel = 6.
+2023-11-18 16:44:54,299 INFO Added 6 to stack. Removed 6 from barrels.
+2023-11-18 16:44:54,498 INFO Get random barrel = 9.
+2023-11-18 16:44:54,499 INFO Added 9 to stack. Removed 9 from barrels.
+2023-11-18 16:44:54,730 INFO Get random barrel = 4.
+2023-11-18 16:44:54,730 INFO Added 4 to stack. Removed 4 from barrels.
+2023-11-18 16:44:54,923 INFO Get random barrel = 5.
+2023-11-18 16:44:54,923 INFO Added 5 to stack. Removed 5 from barrels.
+2023-11-18 16:44:55,152 INFO Get random barrel = 20.
+2023-11-18 16:44:55,152 INFO Added 20 to stack. Removed 20 from barrels.
+2023-11-18 16:44:55,350 INFO Get random barrel = 16.
+2023-11-18 16:44:55,350 INFO Added 16 to stack. Removed 16 from barrels.
+2023-11-18 16:44:55,564 INFO Get random barrel = 23.
+2023-11-18 16:44:55,565 INFO Added 23 to stack. Removed 23 from barrels.
+2023-11-18 16:44:55,780 INFO Get random barrel = 21.
+2023-11-18 16:44:55,780 INFO Added 21 to stack. Removed 21 from barrels.
+2023-11-18 16:44:55,993 INFO Get random barrel = 25.
+2023-11-18 16:44:55,993 INFO Added 25 to stack. Removed 25 from barrels.
+2023-11-18 16:44:56,197 INFO Get random barrel = 7.
+2023-11-18 16:44:56,197 INFO Added 7 to stack. Removed 7 from barrels.
+2023-11-18 16:44:56,417 INFO Get random barrel = 24.
+2023-11-18 16:44:56,417 INFO Added 24 to stack. Removed 24 from barrels.
+2023-11-18 16:44:56,710 INFO Get random barrel = 17.
+2023-11-18 16:44:56,710 INFO Added 17 to stack. Removed 17 from barrels.
+2023-11-18 16:44:57,082 INFO Get random barrel = 14.
+2023-11-18 16:44:57,082 INFO Added 14 to stack. Removed 14 from barrels.
+2023-11-18 16:44:57,517 INFO Get random barrel = 11.
+2023-11-18 16:44:57,517 INFO Added 11 to stack. Removed 11 from barrels.
+2023-11-18 16:44:58,094 INFO Get random barrel = 13.
+2023-11-18 16:44:58,094 INFO Added 13 to stack. Removed 13 from barrels.
+2023-11-18 16:44:58,094 INFO Stack list = [18, 12, 2, 8, 19, 22, 3, 10, 15, 1, 6, 9, 4, 5, 20, 16, 23, 21, 25, 7, 24, 17, 14, 11, 13]
+2023-11-18 16:44:58,094 INFO Program ended
